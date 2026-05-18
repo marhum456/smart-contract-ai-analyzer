@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+import os
 from google import genai
 import json
 import time
@@ -8,7 +10,9 @@ from tkinter import filedialog
 # =========================================================
 # 1️⃣ API KEY + CLIENT
 # =========================================================
-GEMINI_API_KEY = "AIzaSyA9G2RcM_X5UYHf7Uo1WXR56YPhhRC3yd0"
+load_dotenv()
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
