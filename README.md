@@ -46,3 +46,32 @@ source venv/bin/activate
 # Install requirements
 pip install -r requirements.txt
 ```
+
+3. **Create .env file in Project Root:**
+```bash
+GEMINI_API_KEY=your_api_key_here
+```
+
+4. **Run Script:**
+```bash
+python Python_For_Smart_Contracts.py
+```
+
+## 📌 Output
+
+- Select a `.sol` file  
+- AI will analyze vulnerabilities  
+- Results will be saved as a JSON file in the same directory  
+- Output file name:  
+  `your_file_gemini_result.json`
+
+---
+
+## 🌐 Example Workflow
+
+1. Run script  
+2. Select smart contract file  
+3. Wait for AI analysis  
+4. View results in terminal + JSON file  
+
+
