@@ -24,7 +24,19 @@ The tool helps developers quickly understand weaknesses in their contracts and i
 
 ---
 
-## ⚙️ Requirements
+## 🚀 How to Run the Project
 
-Install dependencies:
+### 1. Clone the repository
+```bash
+git clone https://github.com/marhum456/smart-contract-ai-analyzer.git
+cd smart-contract-ai-analyzer
+```
 
+2. **Setup Virtual Environment & Install Dependencies:**
+```bash
+        python -m venv venv
+
+        source venv/bin/activate   # Linux/macOS
+        venv\Scripts\activate      # Windows
+        pip install -r requirements.txt
+```
